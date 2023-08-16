@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <script src="cart.js"></script>
+
+  <title>Grocery Items - RSR General Stores</title>
+</head>
+<body>
+        <div class="container">
+
+        
+                <header>
+                        <img src="RSR.png" alt="RSR General Stores Logo" class="logo" height="10%" width="10%">
+                          <h1>Welcome to RSR General Stores</h1>
+                          <p>Unveiling Quality and Convenience: RSR General Stores!</p>
+        
+              
+              </header>
+              <nav class="nav-links">
+                <a href="home.php">Home</a>
+                <a href="general.html">General</a>
+                <a href="stationary.html">Stationary</a>
+                <a href="dairy.html">Dairy</a>
+                
+                <a href="aboutus.html">About Us</a>
+                </nav>
+
+<div class="section">
+      <h2>Kitchen Items</h2>
+      <div class="item">
+      <img src="redgram.jpg" alt="Red Gram">
+      <h3>Red Gram</h3>
+      <p>1Kg</p>
+      <p class="item-price">MRP: ₹100</p>
+      <p class="item-price">SP: ₹90</p>
+      <input type="number" id="redGramQuantity" value="1" min="0">
+      <button onclick="addToCart('Red Gram', document.getElementById('redGramQuantity').value, 90)">Add to Cart</button>
+</div>
+
+<div class="item">
+      <img src="blackgram.png" alt="Black Gram">
+      <h3>Black Gram</h3>
+      <p>1Kg</p>
+      <p class="item-price">MRP: ₹100</p>
+      <p class="item-price">SP: ₹80</p>
+      <input type="number" id="blackgram" value="1" min="0">
+      <button onclick="addToCart('Black Gram', document.getElementById('blackgram').value, 80)">Add to Cart</button>
+</div>
+
+<div class="item">
+	<img src="idly ravva.jpeg" alt="Idly ravva">
+        <h2>Idly ravva</h2>
+        <p>1Kg</p>
+        <p class="item-price">MRP: ₹100</p>
+	<p class="item-price">SP: ₹90</p>
+        <input type="number" id="idlyravva" value="1" min="0">
+        <button onclick="addToCart('Idly Ravva', document.getElementById('idlyravva').value, 90)">Add to Cart</button>
+</div>
+
+<div class="item">
+	<img src="chakkifreshatta.jpeg" alt="Kitchen Item 4">
+        <h2>Chakki Fresh Atta</h2>
+        <p>1Kg</p>
+        <p class="item-price">MRP: ₹150</p>
+	<p class="item-price">SP: ₹140</p>
+        <input type="number" id="chakkifreshatta" value="1" min="0">
+        <button onclick="addToCart('Chakki Fresh Atta', document.getElementById('chakkifreshatta').value, 140)">Add to Cart</button>
+</div>
+
+   
+<div class="item">
+	<img src="jaggerypowder.jpeg" alt="Kitchen Item 5">
+        <h2>Jaggery Powder</h2>
+        <p>1Kg</p>
+        <p class="item-price">MRP: ₹150</p>
+	<p class="item-price">SP: ₹140</p>
+        <input type="number" id="jaggerypowder" value="1" min="0">
+        <button onclick="addToCart('Jaggery Powder', document.getElementById('jaggerypowder').value, 140)">Add to Cart</button>
+	</div>
+</div>
+
+  
+<div class="section">
+    <h2>Items for Hair</h2>
+    
+<div class="item">
+      <img src="parachute.jpeg" alt="Parachute Coconut Oil">
+      <h3>Parachute Coconut Oil</h3>
+      <p>100ml</p>
+      <p class="item-price">MRP: ₹70</p>
+      <p class="item-price">SP: ₹60</p>
+      <input type="number" id="parachute" value="1" min="0">
+      <button onclick="addToCart('Parachute', document.getElementById('parachute').value, 60)">Add to Cart</button>
+</div>
+
+    <div class="item">
+      <img src="tirumala.jpg" alt="Tirumala Coconut Oil">
+      <h3>Tirumala Coconut Oil</h3>
+      <p>100ml</p>
+      <p class="item-price">MRP: ₹150</p>
+      <p class="item-price">SP: ₹140</p>
+      <input type="number" id="tirumala" value="1" min="0">
+      <button onclick="addToCart('Tirumala', document.getElementById('tirumala').value, 140)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+<img src="headandshoulders.jpg" alt="head&shoulders">
+        <h2>Head and shoulders shampoo</h2>
+        <p>100ml</p>
+        <p class="item-price">MRP: ₹150</p>
+	<p class="item-price">SP: ₹140</p>
+        <input type="number" id="headandshoulders" value="1" min="0">
+        <button onclick="addToCart('Headandshoulders', document.getElementById('headandshoulders').value, 140)">Add to Cart</button>
+      </div>
+
+ <div class="item">
+      <img src="mamaearth.jpg" alt="mamaearth">
+        <h2>Mamaearth onion hair oil</h2>
+        <p>100ml</p>
+        <p class="item-price">MRP: ₹150</p>
+	<p class="item-price">SP: ₹120</p>
+        <input type="number" id="mamaearth" value="1" min="0">
+        <button onclick="addToCart('Mamaearth', document.getElementById('mamaearth').value, 120)">Add to Cart</button>
+</div>
+
+<div class="item">
+        <img src="meera.jpg" alt="meera">
+          <h2>Meera shampoo</h2>
+          <p>100ml</p>
+          <p class="item-price">MRP: ₹120</p>
+          <p class="item-price">SP: ₹100</p>
+          <input type="number" id="meera" value="1" min="0">
+          <button onclick="addToCart('Meera', document.getElementById('meera').value, 100)">Add to Cart</button>
+  </div>
+      
+</div>
+<div id="cart">
+        <h2>Your Shopping Cart</h2>
+        <table id="cartTable">
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </table>
+      </div>
+      <p id="totalPriceDisplay">Total Price: ₹0</p>
+      <center>
+        <button id="payNowButton">Pay Now</button>
+      </center>
+      <script src="cart.js"></script>
+      
+</body>
+</html>

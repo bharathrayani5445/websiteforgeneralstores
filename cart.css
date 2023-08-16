@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Common styles for navigation */
+  .nav-links {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  /* General and Stationary items section styles */
+  .section {
+    margin-bottom: 40px;
+    display:flex;
+  }
+  
+  .item {
+    text-align: center;
+    width: calc(20% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  .item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  /* Customize the styles for stationary and color items sections */
+  /* ... Add your specific styles here ... */
+  
